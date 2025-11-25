@@ -4,8 +4,8 @@ Centralized configuration management for all simulation components
 """
 
 import os
-from dataclasses import dataclass
-from typing import Dict, Any
+from dataclasses import dataclass, field
+from typing import Dict, Any, List, Optional
 
 
 @dataclass
