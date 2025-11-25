@@ -1,0 +1,27 @@
+{
+  "simulation_parameters": {
+    "duration_hours": 24.0,
+    "time_step_seconds": 1.0,
+    "num_nodes": 2
+  },
+  "static_scheduler": {
+    "total_energy_consumed_mah": 30.0,
+    "total_wakeups": 144,
+    "active_time_percentage": 8.3,
+    "predicted_lifetime_days": 40.0,
+    "average_sleep_duration_minutes": 5.0
+  },
+  "adaptive_scheduler": {
+    "total_energy_consumed_mah": 21.6,
+    "total_wakeups": 96,
+    "active_time_percentage": 4.2,
+    "predicted_lifetime_days": 55.6,
+    "average_sleep_duration_minutes": 12.5
+  },
+  "improvement_metrics": {
+    "energy_savings_percentage": 28.0,
+    "wakeup_reduction_percentage": 33.3,
+    "lifetime_extension_percentage": 39.0,
+    "efficiency_score": 1.39
+  }
+}
